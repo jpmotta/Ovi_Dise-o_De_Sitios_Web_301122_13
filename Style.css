@@ -1,0 +1,341 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+      background-color: #ebeef0;
+      height: auto;
+      width: auto;
+}
+
+.header{
+    position: fixed;
+    width: 85%;
+    margin: 0px 100px;
+    background-color:#ffffff;
+    box-shadow: 0px 1px 1px 1px #aaa39c;
+    z-index:100; 
+} 
+
+.logo{
+    margin-top: 20px;
+    float: left;
+}
+
+.titulo1{
+    color: #ff7f00;
+    font-family: Franklin Gothic Book;
+    font-size: 1.7em;
+    margin-top: 68px;
+    margin-left:140px;
+    line-height: 30px;
+    height: 0px;
+    background-color: #005fbf;
+}   
+
+.titulo2 {
+    color: #ff7f00;
+    font-family: Franklin Gothic Book;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-left:140px;
+    line-height: 30px;
+    height: 0px;
+    background-color: #005fbf;
+}   
+
+.facebook{
+    position: relative;
+     left: 80%; 
+}
+     
+.twitter{
+        position: relative;
+         left: 81%; 
+}
+
+.instagram{
+    position: relative;
+     left: 67.7%; 
+}
+
+.menu{
+    width:30%;
+    position: relative; 
+    left:60%;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+ul, li{
+    float: left;
+}
+
+.menu li a{
+    margin-top: -19px;
+     text-decoration: none;
+     color: #005fbf;
+     text-decoration: none;
+     font-family: Franklin Gothic Book;
+     font-size: 1.2em;
+     padding: 1px 16px;
+     display: block;
+     line-height:18px;
+}
+
+.menu li ul li a{
+    color: #ffffff;
+    width: 100% ;
+    background-color: #9a9c9b;
+    line-height: 20px;
+    margin-top: 1px;
+}
+
+.menu li a:hover{
+    color:#ffffff;
+    background-color: #ff7f00;
+    border-radius: 2px 2px;
+    padding:1px px;
+}
+
+.menu li ul{
+    width: 100px;
+    display:none;
+    position: absolute;
+    left: 197px;
+}
+
+.menu li:hover > ul{
+    display:block;
+}
+
+.menu li ul li{
+    width: 200%;
+    position: relative;
+    right: 0px;
+    top:0px;    
+}
+
+#home{
+    background-color: #005ebd;
+    width: 85%;    
+    height: 350px;
+    position:relative; 
+    top:0px;
+    left:100px;
+}
+
+.home{
+    width: 50%;
+    height: 73%;
+    position: relative;
+    top:94px;
+    left:25%;
+}
+
+#contenido_Ppal{
+    border-top: 0.5px solid;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+    width: 85%;
+    margin: 2.5px 100px;
+    line-height: 18px;
+    background-color:#ffffff;
+}
+
+#contenido_Ppal h1{
+    margin: 30px 60px;
+    font-family: Franklin Gothic Book;
+    color: #4d4b4b;
+}
+
+#contenido_Ppal{
+    height: 220px;
+}
+
+#contenido_Ppal p{
+    margin: 20px 70px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height: 25px;
+}
+
+#contenido_2{
+    border-top: 0.5px solid;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+    width: 85%;
+    padding-bottom: 48%;
+    margin: 2.5px 100px;
+    line-height: 18px;
+    background-color:#ffffff;
+}
+
+#contenido_2 h1{
+    margin: 30px 60px;
+    font-family: Franklin Gothic Book;
+    color: #4d4b4b;
+}
+
+#contenido_2{
+    height: 220px;
+}
+
+#contenido_2 p{
+    margin: 20px 70px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height: 25px;
+}
+
+#contenido_2 p1{
+    margin: 20px 70px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height:10px;
+}
+
+#contenido_3{
+    border-top: 0.5px solid;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+    width: 85%;
+    padding-bottom: 49%;
+    margin: 2.5px 100px;
+    line-height: 18px;
+    background-color:#ffffff;
+}
+
+#contenido_3 h1{
+    margin: 30px 60px;
+    font-family: Franklin Gothic Book;
+    color: #4d4b4b;
+}
+
+#contenido_3{
+    height: 220px;
+}
+
+#contenido_3 p{
+    margin: 20px 70px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height: 25px;
+}
+
+#contenido_3 p1{
+    margin: 20px 70px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height:10px;
+}
+
+
+#contenido_4{
+    border-top: 0.5px solid;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+    width: 85%;
+    padding-bottom: 46%;
+    margin: 2.5px 100px;
+    line-height: 18px;
+    background-color:#ffffff;
+}
+
+#contenido_4 h1{
+    margin: 30px 60px;
+    font-family: Franklin Gothic Book;
+    color: #4d4b4b;
+}
+
+#contenido_4{
+    height: 220px;
+}
+
+#contenido_4 p{
+    margin: 20px 70px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height: 25px;
+}
+
+#contenido_4 p1{
+    margin: 20px 70px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height:10px;
+}
+
+#video1 {
+    margin:2% 25%;
+}
+
+#video1 p{
+    margin: 20px 0px;
+    font-family: Franklin Gothic Book;
+    font-size: .8em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height: 25px; 
+}
+
+ #pdf1 {
+     margin:2% 25%;
+}
+    
+ #pdf1 p{
+        margin: 20px 0px;
+        font-family: Franklin Gothic Book;
+        font-size: .8em;
+        text-align: justify;
+        color: #4d4b4b;
+        line-height: 25px; 
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 85%;
+    height: 10%;
+    margin: 0px 100px;
+    background-color:#ffffff;
+    box-shadow: 1px 1px 1px 1px #aaa39c;
+} 
+
+.pie1{
+    color: #ff7f00;
+    font-family: Franklin Gothic Book;
+    font-size: .80em;
+    margin-left:10px;
+    line-height: 25px;
+    height: 0px;
+    padding-top: 12px;
+}   
+
+.pie2 {
+    color: #ff7f00;
+    font-family: Franklin Gothic Book;
+    font-size: .80em;
+    margin: 0px 0px 0px 0px;
+    margin-left: 10px;
+    line-height: 60px;
+}
