@@ -285,6 +285,42 @@ ul, li{
     line-height:10px;
 }
 
+#contenido_5{
+    border-top: 0.5px solid;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+    width: 85%;
+    padding-bottom: 30%;
+    margin: 2.5px 100px;
+    line-height: 18px;
+    background-color:#ffffff;
+}
+
+#contenido_5 h1{
+    margin: 30px 20px;
+    font-family: Franklin Gothic Book;
+    color: #4d4b4b;
+}
+
+#contenido_5{
+    height: 20px;
+}
+
+#contenido_5 p{
+    margin: 20px 400px;
+    font-family: Franklin Gothic Book;
+    font-size: 1.2em;
+    text-align: justify;
+    color: #4d4b4b;
+    line-height: 25px;
+    
+}
+
+.juan{
+    position: absolute;
+    
+}
+
 #video1 {
     margin:2% 25%;
 }
